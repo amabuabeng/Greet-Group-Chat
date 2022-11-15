@@ -106,7 +106,7 @@ color: #87879D;
 .downloadBtn {
     font-family: 'Red Hat Display';
     color: #FFFFFF;
-    background-color: #71C0D4;
+    background-color: #4D96A9;
     border-radius: 2em;
     border-width: 0px;
     line-height: 26px;
@@ -127,14 +127,19 @@ font-weight: 900;
     color: #8FE3F9 !important;
 }
 
+.downloadBtn:hover{
+    cursor: pointer;
+    background-color:#71C0D4 ;
+}
 .whatBtn > span {
     color: #8FE3F9 !important;
 }
 
+
 .whatBtn {
     font-family: 'Red Hat Display';
     color: #FFFFFF;
-    background-color: #B18BDD;
+    background-color: #855FB1;
     border-radius: 2em;
     border-width: 0px;
     line-height: 1,8em;
@@ -152,6 +157,10 @@ line-height: 26px;
 text-align: center;
 }
 
+.whatBtn:hover{
+    cursor: pointer;
+    background-color:#B18BDD ;
+}
 .img-hero-left-desktop {
     display: none;
 }
